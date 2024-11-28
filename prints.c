@@ -7,10 +7,7 @@
  * Return: Void
  */
 
-void  printstring(char *str)
+int printstring(char *str)
 {
-	while(str[i] != '\n')
-	{
-        write (1, &str[i], 1)
-	}
+        return(write(1, str, strlen(str)));
 }

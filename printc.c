@@ -7,7 +7,7 @@
  * Return: Void
  */
 
-void printc(int c)
+int printc(int c)
 {
-	write (1, &c, 1)
+	return(write (1, &c, 1));
 }
