@@ -8,5 +8,6 @@ int printc(char c);
 void printporcentaje(int c);
 int _printf(const char *format, ...);
 int printstring(char *str);
+int printid(int id);
 
 #endif

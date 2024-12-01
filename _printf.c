@@ -35,6 +35,10 @@ int _printf(const char *format, ...)
 				case '%':
 					contador += write(1, "%", 1);
 					break;
+				case 'd':
+				case 'i':
+					contador += printid(va_arg(args, int));
+					break;
 				default:
 					contador += write(1, "%", 1);
 					contador += write(1, &format[i], 1);
