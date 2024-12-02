@@ -26,7 +26,7 @@ int printid(int id)
 		buffer[i++] = (id % 10) +  '0';
 		id = id / 10;
 	}
-	while (i-- >= 0)
+	while (--i >= 0)
 	{
 		contador += write(1, &buffer[i], 1);
 	}
