@@ -37,6 +37,7 @@ Conversion Specifiers:
 %%: Displays a percentage sign. This case is handled directly in the _printf function.
 %d / %i: Presents a decimal number. The implementation is done in print_num, which deals with both positive and negative numbers
 
+![image](https://github.com/user-attachments/assets/dcb1b3bf-9bb0-4cf6-8a78-ddc6815efe95)
 
 
 
